@@ -1,0 +1,16 @@
+name: gift_exchange_organizer_bot
+description: Telegram bot for organizing gift exchange.
+version: 1.0.0
+publish_to: none
+repository: https://github.com/aleksandr-m/gift_exchange_organizer_bot.git
+
+environment:
+  sdk: ^3.1.1
+
+dependencies:
+  teledart: ^0.6.1
+  encrypt: ^5.0.2
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
